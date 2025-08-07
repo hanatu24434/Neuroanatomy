@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> BRAIN</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="myscript.js"></script>
+        <!-- load an icon menu to show an hamburger menu(bar) on small screen-->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <form class="form1">
+                    <label for="search here">
+                        search here
+                    </label>
+                    <input type="text" placeholder="more info">
+                </form>
+                <!-- top navigation menu -->
+                <div class="mobilenav">
+                  <a href="#" class="mobile">logo</a>
+                    <div id="links">
+                        <a href="#">home</a>
+                        <a href="#">brain</a>
+                        <a href="#">health</a>
+                        <a href="#">disorder</a>
+                        </div>
+                    <!-- "hermburger menu" "bars icon" to toggle the navigation links-->
+                    <a href="javaScript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <div class="menu">
+                    <!--  <div class="dropdown">
+                        <a href="#">home</a>
+                        <div class="dropdown-content">
+                            <a href="#">more info</a>
+                            <a href="#">about</a>
+                        </div>
+                    </div>
+                    <a href="#">health information</a>
+                    <a href="#"> brain disorder</a>
+                    <a href="#">fact and myth</a>
+                </div>-->
+            </nav>
+        </header>
+        <section>
+            <h1 class="hed1">unlock the power of your mind.</h1>
+            <img src="./brainB.jpg" alt="brain">
+    </body>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("links");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</html>
