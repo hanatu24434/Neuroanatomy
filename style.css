@@ -4,11 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* styling for more info in the header*/
 .form1 {
     padding: 20px;
     text-align: right;
 }
+
+
 
 /* style the navigation menu */
 .mobilenav {
@@ -20,7 +23,7 @@
 
 }
 
-/* hide the links inside the navigation menu (exept for logo/home */
+/* hide the links inside the navigation menu (exept for logo/home )*/
 .mobilenav #links {
     display: none;
 }
@@ -108,6 +111,41 @@
 a:link {
     text-decoration: none;
 }
+/* styling for the index page */
+/* styling for the heading */
+.parag1 {
+    text-transform: lowercase;
+    font-style: italic;
+    padding-left: 70px;
+    padding-right: 70px;
+    color: darkblue;
+}
+.hedi1{
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 50px;
+    color: darkblue;
+    text-align:center;
+    margin-top: 100px;
+}
+.main1{
+    background-image: url("./research.jpg");
+    background-size:cover;
+    background-attachment: scroll;
+    width: 1000px;
+    height: 900px;
+
+}
+.main2 {
+    background-color: seashell;
+    color: darkblue;
+    border: solid 1px darkblue;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 200px;
+    margin: 50px;
+}
 
 
 /* to make the <p>1 have same styling */
@@ -190,10 +228,7 @@ a:link {
 
 }
 
-.aside1 {
-    display: block;
 
-}
 
 /* styling for section4 */
 .sec4 {
@@ -202,9 +237,6 @@ a:link {
     gap: 20px;
 }
 
-.aside2 {
-    display: block;
-}
 
 .ul1 {
     padding-left: 80px;
