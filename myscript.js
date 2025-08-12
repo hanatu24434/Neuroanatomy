@@ -1,5 +1,5 @@
-function myfunction() {
-    var x=document .getElementById("links");
+function menu() {
+    var x=document.getElementById('links');
     if (x.style.difusplay === "block") {
         x.style.display = "none";
     } else {

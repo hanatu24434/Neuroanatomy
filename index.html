@@ -29,7 +29,7 @@
                         <a href="#">disorder</a>
                     </div>
                     <!-- "hermburger menu" "bars icon" to toggle the navigation links-->
-                    <a href="javaScript:void(0);" class="icon" onclick="myFunction()">
+                    <a href="javaScript:void(0);" class="icon" onclick="menu()">
                         <i class="fa fa-bars"></i>
                     </a>
                 </div>
@@ -47,42 +47,54 @@
                 </div>-->
             </nav>
         </header>
-          <script>
-        function myFunction() {
-            var x = document.getElementById("links");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
+        <script>
+            function menu() {
+                var x = document .getElementById('links');
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
             }
-        }
-    </script>
-      <h1 class="hedi1">explore the fascinating <br>world of neuroscience</h1>
-      <section class="main1"></section>
-            <section class="main2">
-                <span>start your journey</span>
-            </section>
-            <section class="main3">
-                <p class="parag1"><span style="text-transform: capitalize;">welcome</span> to the world of neuroscience,<br> your gateway to understanding
-                    the intricate and facinating world of neuroscience.<br>
+        </script>
+        <h1 class="hedi1">explore the fascinating <br>world of neuroscience</h1>
+        <section class="main1"></section>
+        <section class="main2">
+            <span>start your journey</span>
+        </section>
+        <section class="main3">
+            <p class="parag1"><span style="text-transform: capitalize;">welcome</span> to the world of neuroscience,<br>
+                your gateway to understanding
+                the intricate and facinating world of neuroscience.<br>
                 explore the latest research, discoveries, and insights into the human brain and nervous system.
-                </p>
-            </section>
-            <section class="main4">
-                <div class="divi1">
-                <figure class="figure1">
+            </p>
+        </section>
+        <section class="main-main4">
+        <h1 class="hedi1">feature content</h1>
+        <section class="main4">
+            <div class="divi1">
+                <figure>
                     <img src="./research.jpg" alt="research" class="feature-content-img">
-                    <figcaption class="figi1">
-                        research
-                    </figcaption>
-                    </figure>
-                    <figure>
-                    <img src="./article.jpg" alt="article" class="feature-content-img">
-                    <figcaption class="figi1">
-                        article
-                    </figcaption>
-                    </figure>
-                    </div>
-            </section>
+                    <figcaption class="figi1"><a href="feature.html" target="_self">
+                        latest research
+                    </a></figcaption>
+                </figure>
+                <figure>
+                    <img src="./article1.jpg" alt="article" class="feature-content-img">
+                    <figcaption class="figi1"><a href="feature.html" target="_self">
+                        latest article
+                    </a></figcaption>
+                </figure>
+                <figure>
+                    <img src="./news.jpg" alt="news" class="feature-content-img">
+                    <figcaption class="figi1"><a href="feature.html" target="_self">
+                        neuroscience news
+                    </a></figcaption>
+                </figure>
+            </div>
+        </section>
+        </section>
+    
     </body>
+
 </html>
