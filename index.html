@@ -13,50 +13,31 @@
     <body>
         <header>
             <nav class="navbar">
-                <form class="form1">
-                    <label for="search here">
-                        search here
-                    </label>
+                <form class="form1" action="https://www.hopkinsmedicine.org" method="get" name="more info" >
                     <input type="text" placeholder="more info">
+                    <button type="submit">
+                      <i class="fa fa-search"></i>
+                    </button>
                 </form>
                 <!-- top navigation menu -->
                 <div class="mobilenav">
                     <a href="#" class="mobile">logo</a>
                     <div id="links">
                         <a href="#">home</a>
-                        <a href="#">brain</a>
-                        <a href="#">health</a>
-                        <a href="#">disorder</a>
+                        <a href="#">brain basics</a>
+                        <a href="#">brain health tips</a>
+                        <a href="#">brain development</a>
+                         <a href="#">neurological disorder</a>
+                         <a href="#">fact and misconception</a>
+                        <a href="#">about</a>
                     </div>
                     <!-- "hermburger menu" "bars icon" to toggle the navigation links-->
                     <a href="javaScript:void(0);" class="icon" onclick="menu()">
                         <i class="fa fa-bars"></i>
                     </a>
                 </div>
-                <div class="menu">
-                    <!--  <div class="dropdown">
-                        <a href="#">home</a>
-                        <div class="dropdown-content">
-                            <a href="#">more info</a>
-                            <a href="#">about</a>
-                        </div>
-                    </div>
-                    <a href="#">health information</a>
-                    <a href="#"> brain disorder</a>
-                    <a href="#">fact and myth</a>
-                </div>-->
             </nav>
         </header>
-        <script>
-            function menu() {
-                var x = document .getElementById('links');
-                if (x.style.display === "block") {
-                    x.style.display = "none";
-                } else {
-                    x.style.display = "block";
-                }
-            }
-        </script>
         <h1 class="hedi1">explore the fascinating <br>world of neuroscience</h1>
         <section class="main1"></section>
         <section class="main2">
@@ -88,7 +69,7 @@
                 <figure>
                     <img src="./news.jpg" alt="news" class="feature-content-img">
                     <figcaption class="figi1"><a href="feature.html" target="_self">
-                        neuroscience news
+                        blog
                     </a></figcaption>
                 </figure>
             </div>
