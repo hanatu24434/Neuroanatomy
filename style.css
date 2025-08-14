@@ -10,12 +10,12 @@
     padding: 1rem;
     font-size: 1.0625rem;
     float: right;
-    width: 30%;
+    width: 80%;
 }
 .form1 button {
     margin-bottom: 1rem;
     float: right;
-    width: 5%;
+    width: 20%;
     border-left: none;
     padding: 1rem;
     color: #41c4f6;
@@ -32,18 +32,25 @@
     clear: both;
     display: table;
 }
-
+.navbar {
+    margin-left: 4.375rem;
+    margin-top: 1.875rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 12.5rem;
+}
 
 /* style the navigation menu */
 .mobilenav {
-    background-color:#ccf2fb;
-    overflow: hidden;
+    display: inline-block;
     position: relative;
 }
 
 /* hide the links inside the navigation menu (exept for logo/home )*/
 .mobilenav #links {
     display: none;
+    background-color: #17a0cd;
 }
 
 /* style the navigation menu links  */
@@ -60,18 +67,14 @@
     color: white;
     display: block;
     position: absolute;
-    right: 0;
-    top: 0;
+    right:0 ;
+    top:0 ;
 }
 
 /* add color on mouse hover */
 .mobilenav a:hover {
     background-color:#41c4f6;
     color: white;
-}
-
-.mobile {
-    background-color: #015a7e;
 }
 
 /* styling the child"navbar"for the header  */
@@ -160,10 +163,18 @@ a:link {
 .hedi1 {
     text-transform: uppercase;
     font-style: italic;
-    font-size: 3.125rem;
-    color:#015a7e;
+    font-size: 3.75rem;
+    color:#05394e;
     text-align: center;
-    margin-top:6.25rem;
+    margin-top: 6.25rem;
+}
+.hedin1 {
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 3.125rem;
+    color:white;
+    text-align: center;
+    margin-top: 6.25rem;
 }
 
 /* to style the subtopic */
@@ -179,18 +190,25 @@ a:link {
     padding-right: 3.125rem;
     margin-top: 1.25rem;
 }
-
+.hedi4 {
+    padding-left: 3.125rem;
+    padding: right 3.125em; 
+    font-style: italic;
+    margin-left: 3.125rem;
+    margin-top: 4.375rem;
+    font-size: 1.25rem;
+}
 
 .fig {
     text-align: center;
     text-transform: capitalize;
 }
 .figi1 {
+    color: #000;
     text-align: center;
     font-style: italic;
     font-size: 1.875rem;
     margin-top: 1.875rem;
-    color: whitesmoke;
 }
 
 .brain2 {
@@ -223,7 +241,23 @@ a:link {
     gap: 1.25rem;
     justify-content: flex-start;
 }
-
+.main4-divcard {
+    box-shadow: 0 4px 8px 0;
+    transition:0.5s;
+    width: 40%;
+    background-color: cadetblue;
+    display: inline-block;
+    float: left;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.main4-divcont {
+    weight: 100px;
+    padding: 2px 16px;
+    border-radius: 100px;
+}
 .ul1 {
     padding-left: 5rem;
     padding-right: 3.125rem;
@@ -260,7 +294,9 @@ a:link {
     background-image:url('./brainB.jpg');
     background-size: cover;
     background-attachment: scroll;
-    height: 800px;
+    height: 900px;
+    border: solid 20px #000;
+    margin: 100px;
 
 }
 .main1:hover {
@@ -278,10 +314,27 @@ a:link {
     margin: 3.125rem;
 }
 .main4 {
+    margin-top: 50px;
+}
+.main4-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+ .overall-main4{
+    border: solid 1px black;
+    background-color: lightgray;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    padding: 150px;
+    border-radius: 500px;
+ }
+.main5 {
     margin-top: 4.375rem;
 
 }
-.main-main4 {
+.main-main5 {
     margin-top: 3.125rem;
     background-color:#41c4f6;
     border:solid 0.1875rem #17a0cd ;
