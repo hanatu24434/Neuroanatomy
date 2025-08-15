@@ -130,6 +130,13 @@
 /* remove the underline in all the link */
 a:link {
     text-decoration: none;
+    
+}
+a {
+    color:black;
+}
+a:hover {
+    color: red;
 }
 
 
@@ -241,23 +248,7 @@ a:link {
     gap: 1.25rem;
     justify-content: flex-start;
 }
-.main4-divcard {
-    box-shadow: 0 4px 8px 0;
-    transition:0.5s;
-    width: 40%;
-    background-color: cadetblue;
-    display: inline-block;
-    float: left;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    
-}
-.main4-divcont {
-    weight: 100px;
-    padding: 2px 16px;
-    border-radius: 100px;
-}
+
 .ul1 {
     padding-left: 5rem;
     padding-right: 3.125rem;
@@ -312,29 +303,58 @@ a:link {
     text-align: center;
     border-radius: 12.5rem;
     margin: 3.125rem;
+
 }
 .main4 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.main4-card {
+    box-shadow: 100px;
+    transition: 0.2s;
+    width: 30%;
+    display: block;
+    float: left;
     margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
 }
 .main4-img {
     width: 100%;
-    height: 100%;
-    border-radius: 100px;
+    height: 70%;
 }
- .overall-main4{
-    border: solid 1px black;
-    background-color: lightgray;
+
+.main4-container {
+    padding: 20px 20px;
+    background-color: #17a0cd;
+    font-size: 30px;
+    font-style: italic;
+}
+.main4-card:hover {
+    box-shadow:10px 16px 32px 10px;
+    transform: scale(0.9, 0.9);
+}
+.main4-overall {
+
+    width: 120%;
+    border: solid 2px black;
     display: flex;
     margin: 0 auto;
-    width: 100%;
-    padding: 150px;
-    border-radius: 500px;
- }
+    background-color: #41c4f6;
+    margin-top: 50px;
+
+}
+.main4-overall > .main4-card {
+    display: inline-block;
+}
+
 .main5 {
     margin-top: 4.375rem;
 
 }
 .main-main5 {
+    width: 120%;
     margin-top: 3.125rem;
     background-color:#41c4f6;
     border:solid 0.1875rem #17a0cd ;
