@@ -165,6 +165,13 @@ a:hover {
     color:#05394e;
     font-size: 1.25rem;
 }
+.par1 {
+    text-transform: lowercase;
+    padding-left: 4.375rem;
+    padding-right: 4.375rem;
+    color:white;
+    font-size: 1.25rem;
+}
 
 /* to style the title */
 .hed1 {
@@ -371,7 +378,7 @@ a:hover {
     background-color:#000;
 }
 .social-icons{
-    background-color: #015a7e;
+    background-color: #000;
     display: flex;
     gap: 1.25rem;
     margin-top: 1.25rem;
