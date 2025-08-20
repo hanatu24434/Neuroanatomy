@@ -620,7 +620,6 @@ a:hover {
 }
 h1, h2, h3, h4 {
     font-family: 'Helvetica Neue', sans-serif;
-    color: var(--color-primary);
     font-size: var(--font-size-heading);
 }
 p, li {
@@ -630,11 +629,7 @@ p, li {
     margin-bottom:var(--spacing) ;
 }
 
-@media (max-width: 500px) {
-    .header {
-        position: absolute;
-        padding:10px ;
-    }
+@media (max-width: 789px) {
     .navbar {
         flex-direction: column;
         align-items: center;
