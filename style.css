@@ -17,6 +17,7 @@ header {
     text-align: center;
     position: sticky;
     top: 0;
+    max-width: 100%;
 }
 
 .pagetitle {
@@ -37,6 +38,7 @@ header {
     margin-bottom: 1rem;
     float: right;
     width: 20%;
+    max-height: 100%;
     border-left: none;
     padding: 1rem;
     color: #41c4f6;
@@ -345,7 +347,7 @@ a:hover {
     height: 56.25rem;
     border: solid 1.25rem #000;
     margin: 6.25rem;
-
+    max-width: 100%;
 }
 
 .main1:hover {
@@ -361,6 +363,7 @@ a:hover {
     text-align: center;
     border-radius: 12.5rem;
     margin: 3.125rem;
+    max-width: 100%;
 
 }
 
@@ -477,6 +480,7 @@ a:hover {
     background-color: #f3f6f9;
     padding: 60px 20px;
     font-family: 'Helvetica Neue', sans-serif;
+    max-width: 100%;
 }
 
 .newsletter-container {
@@ -569,6 +573,7 @@ a:hover {
     color: #cfd8dc;
     padding: 40px 20px;
     font-family: 'Helvetica Neue', sans-serif;
+    max-width: 100%;
 }
 
 .footer-container {
@@ -612,7 +617,7 @@ a:hover {
     padding-top: 15px;
     font-size: 0.9em;
 }
-:root {
+:root { /*
     --font-size-heading: 2.5rem;
     --font-size-body: 1rem;
     --spacing: 16px;
@@ -663,12 +668,24 @@ p, li {
 }
 @media (max-width: 600px) {
     .main4-card {
-        max-width:100%;
+        max-width: 100%;
         margin-right: 0;
-        margin-left: 0;
+        margin-left: 0 ;
     }
     .main4-overall {
         flex-direction: column;
+    }
+    .main1 {
+        background-image: url("./brainB.jpg");
+        background-size: cover;
+        background-attachment: scroll;
+        height: 50px;
+        border: solid 1.25rem #000;
+        margin: 0 auto ;
+        padding:100px;
+        max-width: 100%;
+        align-items: center;
+
     }
 }
 @media (max-width:300px) {
@@ -678,3 +695,39 @@ p, li {
         --spacing:8px;
     }
 }
+@media (max-width: 600px) {
+    html, body {
+        overflow: hidden;
+        max-width: 100%;
+    }
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+    .hedi1 {
+        font-size: 2.5rem;
+        margin-top: 3.125rem;
+    }
+      .mobilenav #links {
+        display: block;
+    }
+    .mobilenav a.icon {
+        position:absolute;
+    }
+    .social-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main1 {
+        background-image: url("./brainB.jpg");
+        background-size: cover;
+        background-attachment: scroll;
+        height: 50px;
+        border: solid 1.25rem #000;
+        margin: 0 auto ;
+        padding:100px;
+        max-width: 100%;
+        align-items: center;
+    }
+}*/
