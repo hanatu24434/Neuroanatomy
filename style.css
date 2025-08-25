@@ -183,13 +183,18 @@ a:hover {
 /* styling for brain.html */
 /* to make the <p>1 have same styling */
 .para1 {
+    text-transform: lowercase;
+    font-style: italic;
     margin-top: 1.25rem;
     padding-left: 3.125rem;
     padding-right: 3.125rem;
-    text-transform: lowercase;
     color: black;
 }
-
+span {
+    text-transform:capitalize;
+    font-style: italic;
+    font-size: 20px;
+}
 .parag1 {
     text-transform: lowercase;
     font-style: italic;
@@ -270,6 +275,7 @@ a:hover {
     padding-left: 3.125rem;
     padding-right: 3.125rem;
     margin-top: 1.25rem;
+    text-decoration: underline;
 }
 
 .hedi4 {
@@ -297,9 +303,16 @@ a:hover {
 
 .brain2 {
     display: flex;
-    width: 25rem;
-    height: 25rem;
+    width: 350px;
+    height:300px;
     margin-top: 1.875rem;
+    margin-left: 20px;
+    margin-right:0 auto ;
+}
+.brain3 {
+    width: 600px;
+    height: 500px;
+    margin-top: 50px;
 }
 
 .feature-content-img {
@@ -317,6 +330,7 @@ a:hover {
 
 /* to make the div container to be flex  */
 .div1 {
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     gap: 1.25rem;
@@ -341,14 +355,14 @@ a:hover {
     display: flex;
 }
 
-.overall {
+/* .overall {
     background-color: rgba(0, 100, 50, 20)
-}
+} */
 
-/* styling for section1 */
+/* styling for section1 
 .sec1 {
     background-color: rgba(0, 100, 100, 20);
-}
+}*/
 
 /* styling for section 3 */
 .sec3 {
@@ -768,8 +782,9 @@ p, li {
     margin-top: 1.25rem;
     width: 200px;
     padding: 30px;
-
-
+}
+.span-explore:hover{
+    color: red;
 }
 .explore1 {
     max-width: 100%;
@@ -797,6 +812,7 @@ p, li {
 }
 
 .science-div {
+    background-color: #90caf9;
     border: solid 2px black;
     width:400px;
     justify-content: center;
@@ -806,6 +822,9 @@ p, li {
     margin-left: 50px;
     display: flex;
     align-content: center;
+}
+ .science-parag1:hover{
+    color: red;
 }
 .science-parag1 {
     font-style: italic;

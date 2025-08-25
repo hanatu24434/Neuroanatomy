@@ -4,34 +4,42 @@
     <head>
         <title>BRAIN ANATOMY AND HOW THE BRAIN function</title>
         <link rel="stylesheet" href="style.css">
+         <script src="myscript.js"></script>
     </head>
 
     <body>
         <header>
-           <form class="form1">
-          <label for="search here">
-            search here
-            </label>
-            <input type="text" placeholder="more info">
-            </form>
-            </header>
             <nav class="navbar">
-                <div class="menu">
-                    <div class="dropdown">
-                        <a href="#">home</a>
-                        <div class="dropdown-content">
-                            <a href="#">more info</a>
-                            <a href="#">about</a>
-                        </div>
+                <!-- top navigation menu -->
+                <div class="mobilenav">
+                    <div id="links">
+                        <a href="index.html">home</a>
+                        <a href="#">about</a>
+                        <a href="brainscience.html">brain science</a>
+                        <a href="#">resource</a>
+                        <a href="#">blog</a>
+                        <a href="#">contact</a>
                     </div>
-                    <a href="#">health information</a>
-                    <a href="#"> brain disorder</a>
-                    <a href="#">fact and myth</a>
+                    <!-- "hermburger menu "bars icon" to toggle the navigation links-->
+                    <a href="javaScript:void(0);" class="icon" onclick="menu()">
+                        <i class="fa fa-bars"></i>
+                    </a>
                 </div>
+                <h1 class="pagetitle">neuroscience</h1>
+                <form class="form1"
+                    action="https://physionyx.com/articles/understanding-brain-functionality-neurobiology/" method="get"
+                    name="more info">
+                      <input type="text" placeholder="more info">
+                    <button type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
             </nav>
+        </header>
+             
         <section class="sec1">
             <h1 class="hed1">brain</h1>
-            <p class="para1">the brain is a complex organ that control thought,
+            <p class="para1"><span>the</span> brain is a complex organ that control thought,
                 memory,emotion,touch,motorskill
                 vision,breathing,temperature, and many other functions that regulate the body.
                 it is made up of billions of cells called neurons.it also response to how people
@@ -44,16 +52,16 @@
             </p>
             <div class="div1">
                 <figure>
-                    <img src="./brain10.jpg" alt="brain" class="brain2">
-                    <figcaption class="fig">brain</figcaption>
+                    <img src="./lateral.jpg" alt="brain" class="brain2">
+                    <figcaption class="fig">lateral view of the brain</figcaption>
                 </figure>
                 <figure>
-                    <img src="./brain11.jpg" alt="brain" class="brain2">
-                    <figcaption class="fig">neurons</figcaption>
+                    <img src="./dorsal.jpg" alt="brain" class="brain2">
+                    <figcaption class="fig">dorsal view of the brain</figcaption>
                 </figure>
                 <figure>
-                    <img src="./brain15.jpg" alt="brain" class="brain2">
-                    <figcaption class="fig">brain</figcaption>
+                    <img src="./fontal.jpg" alt="brain" class="brain2">
+                    <figcaption class="fig">frontal view of the brain</figcaption>
                 </figure>
             </div>
             <h1 class="hed1">the three main part of the brain</h1>
@@ -62,7 +70,7 @@
                     <h1 class="hed1">cerebrum</h1>
                     <hr>
                     <p class="para1">
-                        The cerebrum processes sensory information,control voluntary movement,
+                       <span>the</span> cerebrum processes sensory information,control voluntary movement,
                         and is responsible for higher-level function like consious thought,
                         language, and voluntary movement.
                     </p>
@@ -73,16 +81,20 @@
                     </p>
                 </section>
                 <section class="sec3">
-                    <img src="./cerebelum.jpg" alt="cerebrum" class="brain2">
+                    <figure>
+                    <img src="./cerebelum.jpg" alt="cerebrum" class="brain3">
+                    <figcaption class="fig">lateral view of cerebrum</figcaption>
+                    </figure>
                     <aside class="aside1">
                         <h1 class="hed1">more detailed breakdown</h1>
-                        <h3 class="hed3">function</h3>
+                        <hr>
+                        <h3 class="heding3">function</h3>
                         <p class="para1">
                             the cerebreum processes sensory informatrion, control voluntary
                             movements, and is crucial fore thinking, learning, and memory.
                             it also handle language, emotions, and behavior.
                         </p>
-                        <h3 class="hed3">structure</h3>
+                        <h3 class="heding3">structure</h3>
                         <p class="para1">
                             the cerebrum is composed of the cerebral cortex(outer layer
                             of gray matter) and underlying white matter. the cortex is highly
@@ -91,9 +103,12 @@
                     </aside>
                 </section>
                 <section class="sec4">
-                    <img src="./cerebrum2.jpg" alt="cerebrum">
+                    <figure>
+                    <img src="./cerebrum2.jpg" alt="cerebrum" class="brain3">
+                    <figcaption class="fig">dorsal view of cerebrum</figcaption>
+                    </figure>
                     <aside class="aside2">
-                    <h3 class="hed3">lobes</h3>
+                    <h3 class="heding3">lobes</h3>
                     <h4 class="hed4">each hemisphere contain four lobes,
                         each with specific functions:
                     </h4>
@@ -108,7 +123,7 @@
                             language comphehension.</li>
                         <li>occipital lobe:processes visual information</li>
                     </ul>
-                    <h3 class="hed3">hemispheres</h3>
+                    <h3 class="heding3">hemispheres</h3>
                     <p class="para1">
                         the left hemisphere generally control
                         the right side of the body and is often dominant in language,
@@ -116,7 +131,7 @@
                             and is more involved in spatial reasoning and
                             visual spatial tasks.
                     </p>
-                    <h3 class="hed3">connection</h3>
+                    <h3 class="heding3">connection</h3>
                     <p class="para1">
                         the corpus allosum is a brand of nerve fibers that connect 
                         the two hemisphere, allowing them toi communicate and coordinate
@@ -124,6 +139,42 @@
                     </p>
                     </aside>
                 </section>
+                <section class="sec5">
+                    <h1 class="hed1">cerebellum</h1>
+                    <hr>
+                    <p class="para1"><span>the</span> cerebellum, or <q>little brain,</q> is located at the back of the brain,
+                     underneath the cerebrum and behind the brainstem, responsible for coordinating movements, balance, 
+                    posture, and motor learning.</p>
+                    <p class="para1">it contain a vast number of neurons and processes sensory information 
+                from other parts of nervous system to ensure movement are smooth, precise, and coordinated. </p>
+                </section>
+            </section>
+            <section class="sec3">
+                <figure>
+                <img src="./cerebellumfontal.jpg" alt="brain" class="brain3">
+                <figcaption class="fig">fontal view of cerebellum</figcaption>
+                </figure>
+                <aside class="aside1">
+                <h1 class="hed1">Anatomy</h1>
+                <hr>
+                <h3 class="heding3">function</h3>
+                <h4 class="hed4">motor coordination:</h4>
+                <p class="para1"> The cerebellum fine-tunes voluntary muscles movement, cordinating c ompolex actions 
+                    like walking, playing a musical instrument, or perfoming fine hand movements.
+                </p>
+                <h4 class="hed4">balance and posture:</h4>
+                <p class="para1">it control muscle tone and limb position, enabling a person to maintain balance and stable 
+                    posture. 
+                </p>
+                <h4 class="hed4">motor learning:</h4>
+                <p class="para1">it play a crucial role in motor learning, allowing for the acquisition and refinement 
+                    of new motor skills. 
+                </p>
+                <h4 class="hed4">Higher-level functions:</h4>
+                <p class="para1">it also involve in certain cognitive functions, including language, attention,
+                    and emotional regulation.
+                </p>
+                </aside>
             </section>
     </body>
 
