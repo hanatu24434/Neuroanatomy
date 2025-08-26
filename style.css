@@ -4,12 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    font-family: 'open sans',sans-serif;
+}
 html {
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.para1 {
+    font-family: 'roboto', sans-serif;
+}
 header {
     background-color: #05394e;
     color: #fff;
@@ -25,7 +29,10 @@ header {
     text-transform: uppercase;
     font-size: 50px;
 }
-
+.interset{
+    margin-top: 100px;
+    border: solid 2px black;
+}
 /* styling for more info in the header*/
 .form1 input[type=text] {
     padding: 1rem;
@@ -228,6 +235,7 @@ span {
     text-transform: uppercase;
     padding: 6.25rem;
     text-decoration: underline;
+    font-size: 20px;
 }
 
 .hedi1 {
@@ -238,7 +246,22 @@ span {
     text-align: center;
     margin-top: 6.25rem;
 }
-
+.hedi1 {
+    animation: typing 2s steps(40, end);
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation-fill-mode: forwards;  
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to{
+        width: 90%;
+    }
+}
 .hedin1 {
     text-transform: uppercase;
     font-style: italic;
@@ -269,7 +292,6 @@ span {
     color: #05394e;
     margin-top:20px;
 }
-
 /* styling for hed4 */
 .hed4 {
     padding-left: 3.125rem;
@@ -314,7 +336,9 @@ span {
     height: 500px;
     margin-top: 50px;
 }
-
+.brain4 {
+    margin-top:100px ;
+}
 .feature-content-img {
     display: flex;
     width: 100%;
@@ -365,6 +389,9 @@ span {
 }*/
 
 /* styling for section 3 */
+.neuro {
+    margin-top: 50px;
+}
 .sec3 {
     display: flex;
     flex-direction: row;
@@ -772,6 +799,7 @@ p, li {
         align-items: center;
     }
 }*/
+
 /* styling for explore1 */
 .span-explore {
     background-color: #17a0cd;
