@@ -8,8 +8,8 @@ body {
     font-family: 'open sans',sans-serif;
 }
 html {
-    scroll-behavior: smooth;
-    /* font-family: Arial, Helvetica, sans-serif; */
+   /* scroll-behavior: smooth;
+     font-family: Arial, Helvetica, sans-serif; */
 
 }
 .body1 {
@@ -267,7 +267,7 @@ span {
     margin-top: 6.25rem;
 }
 .hedi1 {
-    animation: typing 2s steps(40, end);
+    animation: typing 5s steps(40, end);
     font-weight: bold;
     overflow: hidden;
     white-space: nowrap;
@@ -418,6 +418,7 @@ span {
 /* styling for section 3 */
 .neuro {
     margin-top: 50px;
+    max-width: 100%;
 }
 .sec3 {
     display: flex;
