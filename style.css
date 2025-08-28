@@ -17,12 +17,13 @@ html {
 }
 @keyframes slide-in {
     from {
-        transform: translateX(100%);
+         transform: translateX(-100%);
     }
     to {
         transform: translateX(0);
     }
 }
+
 .para1 {
     font-family: 'roboto', sans-serif;
 }
@@ -40,6 +41,13 @@ header {
     font-style: italic;
     text-transform: uppercase;
     font-size: 50px;
+}
+.subtitle {
+   text-align: center;
+    text-transform: uppercase;
+    padding: 90px;
+    text-decoration: underline;
+    font-size: 30px;
 }
 .interset{
     margin-top: 100px;
@@ -245,11 +253,11 @@ span {
 .hed1 {
     text-align: center;
     text-transform: uppercase;
-    padding: 30px;
+    padding: 90px;
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 20px;
 }
-
+    
 .hedi1 {
     text-transform: uppercase;
     font-style: italic;
@@ -325,6 +333,7 @@ span {
 .fig {
     text-align: center;
     text-transform: capitalize;
+    margin-top: 20px;
 }
 
 .figi1 {
@@ -343,6 +352,9 @@ span {
     margin-left: 20px;
     margin-right:0 auto ;
 }
+.brain2:hover{
+    transform: scale(1.1);
+}
 .brain3 {
     width: 600px;
     height: 500px;
@@ -350,6 +362,9 @@ span {
 }
 .brain4 {
     margin-top:100px ;
+}
+.brain4:hover {
+    transform:scale(1.1);
 }
 .feature-content-img {
     display: flex;
