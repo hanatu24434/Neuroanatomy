@@ -162,31 +162,6 @@ form.form1 input[type=text] {
     color: black;
 }
 
-.dropdown {
-    display: inline-block;
-    position: relative;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 100%;
-    padding: 1.25rem 1rem;
-    z-index: 1;
-
-}
-
-.dropdown-content:hover {
-    background-color: coral;
-    color: #000;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    background-color: rgba(0, 50, 100, 30);
-    padding: 3.125rem;
-}
-
 
 /* remove the underline in all the link */
 a:link {
@@ -406,16 +381,6 @@ span {
     display: flex;
 }
 
-/* .overall {
-    background-color: rgba(0, 100, 50, 20)
-} */
-
-/* styling for section1 
-.sec1 {
-    background-color: rgba(0, 100, 100, 20);
-}*/
-
-/* styling for section 3 */
 .neuro {
     margin-top: 50px;
     max-width: 100%;
@@ -713,7 +678,7 @@ span {
 }
 
 :root {
-    /*
+    
     --font-size-heading: 2.5rem;
     --font-size-body: 1rem;
     --spacing: 16px;
@@ -729,7 +694,7 @@ p, li {
     line-height: 1.5;
     margin-bottom:var(--spacing) ;
 }
-
+/* 
 @media (max-width: 789px) {
     .navbar {
         flex-direction: column;
@@ -772,7 +737,7 @@ p, li {
         flex-direction: column;
     }
     .main1 {
-        background-image: url("./brainB.jpg");
+        background-image: url("./images/brainB.jpg");
         background-size: cover;
         background-attachment: scroll;
         height: 50px;
@@ -784,13 +749,14 @@ p, li {
 
     }
 }
-@media (max-width:300px) {
+ @media (max-width:300px) {
     :root {
         --font-size-heading:1.25rem;
         --font-size-body:0.6rem;
         --spacing:8px;
     }
 }
+
 @media (max-width: 600px) {
     html, body {
         overflow: hidden;
@@ -811,10 +777,11 @@ p, li {
     .mobilenav a.icon {
         position:absolute;
     }
-    .social-icons {
+    .social-icons { 
         flex-direction: column;
         align-items: center;
     }
+}
     .main1 {
         background-image: url("./brainB.jpg");
         background-size: cover;
