@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,24 +10,25 @@
             content="neuroscience, brain science, mental health, brain function, memory, learning, brain exercise, mental fitness, neuroscience blog">
         <meta name="author" content="Hana Beauty">
         <title> BRAIN</title>
-        <script src="myscript.js"></script>
+        <!-- <script src="myscript.js"></script> -->
         <link rel="stylesheet" href="style.css">
         <!-- load an icon menu to show an hamburger menu(bar) on small screen-->
-        <link rel="stylesheet"
+     <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                        <link rel="stylesheet"
-                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     </head>
 
     <body>
         <header>
             <nav class="navbar">
-                                  
-                <!-- top navigation menu -->
-                <div class="mobilenav">
-                   
-                    <div id="links">
-                        <a href="#">home</a>
+                <div class="dropdown">
+                     <!-- "hermburger menu" "bars icon" to toggle the navigation links-->
+                  <a href="javaScript:void(0);" class="icon" onclick="menu()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <div class="dropdown-content">
+                       <a href="#">home</a>
                         <a href="#about">about</a>
                         <a href="explore.html">explore</a>
                         <a href="brainscience.html">brain science</a>
@@ -34,13 +36,9 @@
                         <a href="#">blog</a>
                         <a href="#">contact</a>
                     </div>
-                    <!-- "hermburger menu" "bars icon" to toggle the navigation links-->
-                    <a href="javaScript:void(0);" class="icon" onclick="menu()">
-                        <i class="fa fa-bars"></i>
-                    </a>
                 </div>
                 <h1 class="pagetitle">neuroscience</h1>
-                 <form class="form1"
+                <form class="form1"
                     action="https://physionyx.com/articles/understanding-brain-functionality-neurobiology/" method="get"
                     name="more info">
                     <input type="text" placeholder="more info">
@@ -102,7 +100,7 @@
                     <figure>
                         <img src="./images/research.jpg" alt="research" class="feature-content-img">
                         <figcaption class="figi1"><a href="blogpage.html" target="_self">
-                            latest research
+                                latest research
                             </a></figcaption>
                     </figure>
                     <figure>
@@ -120,7 +118,7 @@
                 </div>
             </section>
         </section>
-        
+
         <section class="newsletter-section">
             <div class="newsletter-container">
                 <div class="newsletter-text">
@@ -145,42 +143,42 @@
             </div>
         </section>
         <footer class="footer">
-  <div class="footer-container">
-    <div class="footer-about">
-      <h3>NeuroScope</h3>
-      <p>Advancing the frontier of brain science through data, innovation, and collaboration.</p>
-    </div>
+            <div class="footer-container">
+                <div class="footer-about">
+                    <h3>NeuroScope</h3>
+                    <p>Advancing the frontier of brain science through data, innovation, and collaboration.</p>
+                </div>
 
-    <div class="footer-links">
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#team">Our Team</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#research">Research</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
 
-    <div class="footer-contact">
-      <h4>Contact Us</h4>
-      <p>Email: <a href="hannatuaforolagba@gmail.com">info@neuroscope.org</a></p>
-      <p>Phone: +1 (555) 123-4567</p>
-      <div class="social-icons">
-    <a href="https://wa.me/+2348121717440" target="_self" class="social-media whatsapp"><i
-                        class="fa fa-whatsapp"></i></a>
-                            <a href="https://www.facebook.com" target="_blank" class="social-media facebook"><i
-                        class="fa fa-facebook"></i></a>
-                <a href="https://www.instagram.com" target="_blank" class="social-media instagram"><i
-                        class="fa fa-instagram"></i></a>
-     <a href="#"><img src="icons/github.svg" alt="GitHub"></a>
-      </div>
-    </div>
-  </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>Email: <a href="hannatuaforolagba@gmail.com">info@neuroscope.org</a></p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                    <div class="social-icons">
+                        <a href="https://wa.me/+2348121717440" target="_self" class="social-media whatsapp"><i
+                                class="fa fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com" target="_blank" class="social-media facebook"><i
+                                class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-media instagram"><i
+                                class="fa fa-instagram"></i></a>
+                        <a href="#"><img src="icons/github.svg" alt="GitHub"></a>
+                    </div>
+                </div>
+            </div>
 
-  <div class="footer-bottom">
-    <p>&copy; 2025 NeuroScope. All rights reserved.</p>
-  </div>
-</footer>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NeuroScope. All rights reserved.</p>
+            </div>
+        </footer>
 
     </body>
 

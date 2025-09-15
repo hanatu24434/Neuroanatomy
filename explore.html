@@ -10,21 +10,23 @@
             content="neuroscience, brain science, mental health, brain function, memory, learning, brain exercise, mental fitness, neuroscience blog">
         <meta name="author" content="Hana Beauty">
         <title> BRAIN</title>
-        <script src="myscript.js"></script>
+        <!-- <script src="myscript.js"></script> -->
         <link rel="stylesheet" href="style.css">
+                <!-- load an icon menu to show an hamburger menu(bar) on small screen-->
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- load an icon menu to show an hamburger menu(bar) on small screen-->
     </head>
-
     <body class="body1">
         <header>
             <nav class="navbar">
-                <!-- top navigation menu -->
-                <div class="mobilenav">
-                    <div id="links">
+                <div class="dropdown">
+                  <!-- "hermburger menu" "bars icon" to toggle the navigation links-->
+                    <a href="javaScript:void(0);" class="icon" onclick="menu()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <div class="dropdown-content">
                         <a href="index.html">home</a>
                         <a href="brainscience.html">brain science</a>
                         <a href="#">about</a>
@@ -32,10 +34,6 @@
                         <a href="#">blog</a>
                         <a href="#">contact</a>
                     </div>
-                    <!-- "hermburger menu" "bars icon" to toggle the navigation links-->
-                    <a href="javaScript:void(0);" class="icon" onclick="menu()">
-                        <i class="fa fa-bars"></i>
-                    </a>
                 </div>
                 <h1 class="pagetitle">neuroscience</h1>
                 <form class="form1"
