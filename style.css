@@ -328,6 +328,7 @@ span {
     height: 70%;
     padding-left: 3.125rem;
     padding-right: 3.125rem;
+  
 
 }
 
@@ -349,7 +350,8 @@ span {
     flex-direction: row;
     gap: 1.25rem;
     justify-content: flex-start;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+   
 }
 
 .ul1 {
@@ -445,12 +447,13 @@ span {
 
 .main4-overall {
     max-width: 100%;
-    width: 100%;
+    /* width: 100%;  */
     border: solid 2px black;
     display: flex;
     margin: 0 auto;
     background-color: #78909c;
     margin-top: 3.125rem;
+
 
 
 }
@@ -462,15 +465,15 @@ span {
 .main5 {
     margin-top: 4.375rem;
 
+
 }
 
 .main-main5 {
-
     max-width: 100%;
-    width: 100%;
     margin-top: 5rem;
     background-color: #78909c;
-    border: solid 0.1875rem #17a0cd;
+    border: solid 0.1875rem #17a0cd; 
+ 
 }
 
 .social-icons {
@@ -771,30 +774,43 @@ span {
 }
 
 .main4 {
-    margin-right: 5px;
+    margin-right: 10px;
     margin-left: 5px;
+    overflow: hidden; 
+    border-right: solid 2px black;
+    border-radius: 8px 8px;
+    flex-wrap: wrap;
 }
 .main4-overall {
     max-width: 100%;
-    width: 100%;
+     /* width: 100%;  */
     border: solid 2px black;
     display: flex;
-    margin: 0 auto; 
+    /* margin: 0 auto;  */
     background-color: #78909c;
     margin-top: 3.125rem;
-    border-radius: 8px 8px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius:8px 8px;
 }
 
 
 .main-main5{
     border-radius:8px 8px;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-left: 5px;
+    flex-wrap: wrap;
+    
+    
 }
 
 .feature-content-img {
-    width: 100%;
+    width: 50%;
     height: 60%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 
 
 }
@@ -824,7 +840,16 @@ span {
     flex-direction: column;
     gap: 1.25rem;
 }
+.divi1 {
+    flex-wrap: wrap;
 }
+.science-div {
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+}
+
 /* 
 
 h1, h2, h3, h4 {
@@ -891,9 +916,9 @@ p, li {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    gap:10px;
+    gap:1.25rem;
     padding: 8px ;
-    flex-wrap: wrap;
+    
     
 } 
 
@@ -957,21 +982,28 @@ p, li {
     width: 100%;
     border: solid 2px black;
     display: flex;
-    margin: 0 auto; 
+    /* margin: 0 auto;  */
     background-color: #78909c;
     margin-top: 3.125rem;
     border-radius: 16px 8px 8px 16px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
 }
 
 .main4 {
     margin-right: 5px;
     margin-left: 5px;
+    overflow: hidden;
+    border-right: solid 2px black;
+    border-radius: 8px 8px;
 }
 
 .main-main5{
     border-radius:16px 8px 8px 16px;
     margin-right: 15px;
     margin-left: 15px;
+    flex-wrap: wrap;
 }
 
 .feature-content-img {
@@ -1010,8 +1042,16 @@ p, li {
     margin-right: 5px;
     margin-left: 5px;
 }
+.divi1 {
+    flex-wrap: wrap;
 }
 
+.science-div {
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+}
 
 /* responsive adjustement at 480 */
 
@@ -1232,22 +1272,57 @@ p, li {
 .science-div {
     background-color: #90caf9;
     border: solid 2px black;
-    width:400px;
-    justify-content: center;
+    width:300px;
+    justify-content: center; 
     height: 150px;
     border-radius: 10px;
     padding-top: 50px;
-    margin-left: 50px;
+    margin-left: 20px;
     display: flex;
-    align-content: center;
+    align-content: center; 
+    overflow: hidden;
 }
  .science-parag1:hover{
     color: red;
 }
 .science-parag1 {
     font-style: italic;
-    font-size: 30px;
+    font-size: 20px;
     color: #37474f;
     text-transform: capitalize;
+    text-align: center;
 
 }
+.brainscienceimg {
+    width: 50%;
+    height: 200px;
+    padding-right: 20px;
+    margin-top: -50px;
+    margin-left: -8px; 
+    
+}
+
+.brainscienceimg2 {
+    width: 50%;
+    height: 200px;
+    padding-right: 20px; 
+    margin-top: -50px;
+    margin-left: -20px; 
+}
+.brainscienceimg3 {
+     width: 70%;
+    height: 200px;
+    padding-right: 20px; 
+    margin-top: -50px;
+    margin-left: -30px
+}
+
+
+.brainscienceimg4 {
+     width: 80%;
+    height: 200px;
+    padding-right: 20px; 
+    margin-top: -50px;
+    margin-left: -30px
+}
+
