@@ -56,6 +56,7 @@ header {
     padding: 90px;
     text-decoration: underline;
     font-size: 30px;
+    
 }
 .interset{
     margin-top: 100px;
@@ -167,15 +168,15 @@ a:hover {
 /* to make the <p>1 have same styling */
 .para1 {
     text-transform: lowercase;
-    font-style: italic;
-    margin-top: 1.25rem;
+    /* font-style: italic;  */
+     margin-top: 1.25rem;
     padding-left: 3.125rem;
-    padding-right: 3.125rem;
+    padding-right: 3.125rem; 
     color: black;
+
 }
 span {
-    text-transform:capitalize;
-    font-style: italic;
+    text-transform:capitalize;;
     font-size: 20px;
 }
 .parag1 {
@@ -211,7 +212,7 @@ span {
     text-transform: uppercase;
     padding: 90px;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 30px;
 }
     
 .hedi1 {
@@ -306,7 +307,7 @@ span {
     height:300px;
     margin-top: 1.875rem;
     margin-left: 20px;
-    margin-right:0 auto ;
+    margin-right:-10px ;
 }
 .brain2:hover{
     transform: scale(1.1);
@@ -338,6 +339,7 @@ span {
 
 /* to make the div container to be flex  */
 .div1 {
+
     max-width: 100%;
     display: flex;
     flex-direction: row;
@@ -351,6 +353,7 @@ span {
     gap: 1.25rem;
     justify-content: flex-start;
     /* margin: 0 auto; */
+    
    
 }
 
@@ -372,6 +375,7 @@ span {
     display: flex;
     flex-direction: row;
     gap: 1.25rem;
+
 
 }
 
@@ -446,12 +450,12 @@ span {
 }
 
 .main4-overall {
-    max-width: 100%;
+    /* max-width: 100%; */
     /* width: 100%;  */
     border: solid 2px black;
     display: flex;
     margin: 0 auto;
-    background-color: #78909c;
+     background-color: #78909c; 
     margin-top: 3.125rem;
 
 
@@ -723,8 +727,19 @@ span {
 .pagetitle {
     left:0;
     font-size: 45px;
-}
 
+}
+.subtitle {
+    margin-top: 150px;
+    padding: 70px;
+}
+.div1 {
+    flex-wrap: wrap-reverse;
+    overflow: hidden;
+}
+.brain2 {
+    width: 300px;
+}
 /* style the navigation menu */
 .dropdown {
     position:relative;
@@ -761,12 +776,13 @@ span {
 } 
 
 .main4-img {
-    width: 100%;
+    width:100%;
     height: 70%;
 }
 
 .main4-container {
-    padding: 10px 10px;
+    padding:1.25rem 1.25rem;
+     /* padding: 10px 10px; */
     background-color: #17a0cd;
     font-style: italic;
     font-size: 10px;
@@ -774,25 +790,26 @@ span {
 }
 
 .main4 {
+    margin-top: 20px;
     margin-right: 10px;
     margin-left: 5px;
     overflow: hidden; 
-    border-right: solid 2px black;
-    border-radius: 8px 8px;
+    
+    /* border-radius: 8px 8px; */
     flex-wrap: wrap;
 }
 .main4-overall {
     max-width: 100%;
      /* width: 100%;  */
-    border: solid 2px black;
+    /* border: solid 2px black; */
     display: flex;
     /* margin: 0 auto;  */
-    background-color: #78909c;
+    background-color:white;
     margin-top: 3.125rem;
     overflow: hidden;
     flex-wrap: wrap;
     justify-content: center;
-    border-radius:8px 8px;
+    /* border-radius:8px 8px; */
 }
 
 
@@ -829,8 +846,9 @@ span {
 }
 .sec3{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     gap: 1.25rem;
+    /* flex-wrap: wrap; */
 
 }
 
@@ -838,7 +856,7 @@ span {
 .sec4 {
     display: flex;
     flex-direction: column;
-    gap: 1.25rem;
+     gap: 1.25rem; 
 }
 .divi1 {
     flex-wrap: wrap;
@@ -847,9 +865,30 @@ span {
     justify-content: center;
     align-items: center;
     margin-right: 50px;
+    
 }
-}
+/* for the text  */
+.para1 {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
 
+}
+.parag1 {
+ padding-left: 15px;
+ padding-right: 15px;
+ font-style: normal;
+}
+.hed1 {
+    padding: 30px;
+}
+.brain4 {
+    width: 100%;
+}
+.hed4 {
+    font-size: 20px;
+}
+}
 /* 
 
 h1, h2, h3, h4 {
@@ -933,7 +972,9 @@ p, li {
     right:0;
     font-size: 5px;
 }
-
+.subtitle {
+    margin-top: 100px;
+}
 
 .form1 {
     top: 5px;
@@ -983,7 +1024,7 @@ p, li {
     border: solid 2px black;
     display: flex;
     /* margin: 0 auto;  */
-    background-color: #78909c;
+    background-color: white;
     margin-top: 3.125rem;
     border-radius: 16px 8px 8px 16px;
     flex-wrap: wrap;
@@ -1170,10 +1211,10 @@ p, li {
 .main4-overall {
     max-width: 100%;
     width: 100%;
-    border: solid 2px black;
+    border:none;
     display: flex;
     margin: 0 auto; 
-    background-color: #78909c;
+    background-color: white;
     margin-top: 3.125rem;
     border-radius: 16px 8px 8px 16px;
     margin-left: 15px ;
@@ -1258,7 +1299,7 @@ p, li {
     padding-top: 6.25rem;
     padding-bottom:20px;
    /* background-color: #78909c;*/
-    max-width: 100%;
+    max-width: 100%; 
     display: flex;
     flex-direction: row;
     justify-content: center;
